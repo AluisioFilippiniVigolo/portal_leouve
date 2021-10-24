@@ -1,0 +1,47 @@
+﻿body {
+    margin: 0px;
+}
+
+div.cabecalho-desktop {
+    background-color: #287bb9;
+    padding: 6pt;
+    padding-left: 40pt;
+}
+
+div.cabecalho-mobile {
+    
+}
+
+#icone-hamburguer {
+    margin: auto 10pt;
+}
+
+a {
+    color: white;
+    font-size: 9pt;
+    font-weight: bold;
+    margin-right: 10pt;
+}
+
+@media (min-width: 20.0rem) {
+    div.cabecalho-mobile {
+        display: block;
+    }
+    div.cabecalho-desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 60.0rem) {
+    div.cabecalho-mobile {
+        display: none;
+    }
+
+    div.cabecalho-desktop {
+        display: block;
+    }
+}
+
+@media (min-width: 120.0rem) {
+    
+}
